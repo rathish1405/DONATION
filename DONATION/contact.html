@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body{
+    background-image: url(all_pages.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: chocolate;
+    background-blend-mode: normal;
+}
+h1{
+    color: black;
+}
+
+</style>
+<body>
+    <div class="wrapper">
+            <nav class="navbar">
+                <img class="logo" src="logo.jpg" href="home_page.html">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="donate.html">DONATE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+    </div>
+    <div class="container">
+        <h1 style="font-size: 50px">Contact Us</h1>
+        <p>Donating a penny means a lot!</p>
+        <form action="thank_you.html">
+            <label for="name">NAME</label>
+            <input type="text" id="name" required=" ">
+            <label for="email">E-MAIL</label>
+            <input type="email" id="email" required=" ">
+            <label for="comment">COMMENTS</label>
+            <textarea id="comment" row="5" required=" "></textarea>
+            <button type="submit" value="submit" >SEND</button>
+        </form>
+    </div>
+</body>
+</html>
